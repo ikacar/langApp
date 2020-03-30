@@ -61,7 +61,6 @@ public class ResultService {
         examResultsVO.setExamId(exam_id);
         if(mark!=0)        examResultsVO.setMark(mark/results.size());
         else examResultsVO.setMark(mark);
-        System.out.println("mark " + examResultsVO.getMark());
 
         examResultsVO.setDone(exam.get().isEnded());
         examResultsVO.setResultsInfoVOS(resultsVO);
